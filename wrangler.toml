@@ -1,0 +1,8 @@
+name = "llm-persona-builder"
+pages_build_output_dir = "dist"
+compatibility_date = "2024-11-01"
+
+[[d1_databases]]
+binding = "DB"
+database_name = "llm-persona-builder-db"
+database_id = "6e7eaa9a-315d-49c9-bc47-88662ae18407"

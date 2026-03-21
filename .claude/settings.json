@@ -1,0 +1,21 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(pip3 install:*)",
+      "Bash(python3 extract_data.py)",
+      "Bash(pip install:*)",
+      "Bash(python3 \"/Users/matheswarankanagarajan/Desktop/SideQuest/LLM Persona Builder/extract_data.py\")",
+      "Bash(python3 -m pip install openpyxl)",
+      "Bash(npx wrangler:*)",
+      "Bash(mkdir -p /Users/matheswarankanagarajan/.wrangler)",
+      "Bash(WRANGLER_HOME=/Users/matheswarankanagarajan/.wrangler npx wrangler login)",
+      "Bash(WRANGLER_HOME=/Users/matheswarankanagarajan/.wrangler npx wrangler pages deploy dist --project-name llm-persona-builder)",
+      "Bash(WRANGLER_HOME=/Users/matheswarankanagarajan/.wrangler CLOUDFLARE_ACCOUNT_ID=51f0411bb44bb1022dbe10412e1b5b9c npx wrangler pages deploy dist --project-name llm-persona-builder)",
+      "Bash(WRANGLER_HOME=/Users/matheswarankanagarajan/.wrangler CLOUDFLARE_ACCOUNT_ID=51f0411bb44bb1022dbe10412e1b5b9c npx wrangler pages deploy dist --project-name llm-persona-builder --branch main)",
+      "Bash(WRANGLER_HOME=/Users/matheswarankanagarajan/.wrangler CLOUDFLARE_ACCOUNT_ID=51f0411bb44bb1022dbe10412e1b5b9c npx wrangler pages project create llm-persona-builder --production-branch main)",
+      "Bash(WRANGLER_HOME=/Users/matheswarankanagarajan/.wrangler CLOUDFLARE_ACCOUNT_ID=51f0411bb44bb1022dbe10412e1b5b9c npx wrangler d1 create llm-persona-builder-db)",
+      "Bash(WRANGLER_HOME=/Users/matheswarankanagarajan/.wrangler CLOUDFLARE_ACCOUNT_ID=51f0411bb44bb1022dbe10412e1b5b9c npx wrangler d1 execute llm-persona-builder-db --remote --command \":*)",
+      "Bash(WRANGLER_HOME=/Users/matheswarankanagarajan/.wrangler CLOUDFLARE_ACCOUNT_ID=51f0411bb44bb1022dbe10412e1b5b9c npx wrangler pages project list)"
+    ]
+  }
+}
